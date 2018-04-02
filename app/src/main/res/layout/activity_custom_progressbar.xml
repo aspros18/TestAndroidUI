@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:round="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.aspros.testandroidui.widget.RoundProgressBar
+        android:id="@+id/round_progressbar"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        round:radius="90dp"
+        round:ringWidth="20dp"
+        round:startAngle="-90"
+        round:centerColor="#eeff06"
+        round:ringColor="#e16556e6"
+        round:progressColor="#33CC00"
+        round:textColor="#000000"
+        round:textSize="20sp"
+        round:isTextDisplay="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="Button" />
+</RelativeLayout>

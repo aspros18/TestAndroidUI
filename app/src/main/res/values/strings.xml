@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestAndroidUI</string>
+
+    <string-array name="custom_strings">
+        <item>自定义圆形进度条</item>
+        <item>闪烁变色的信号灯</item>
+        <item>自定义时钟</item>
+    </string-array>
+</resources>
